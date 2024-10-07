@@ -20,8 +20,7 @@ export const employees = [
       comment: 'Happy Anniversary! Wishing you many more years of success.',
       name: 'Chaitanya',
       date: '2024-09-30',
-    //   image:  require('../Assets/anniversarypic.jpg'), // Local image,
-      image:  require('./Assets/anniversarypic.jpg'), // Local image,
+      image:  require('./Assets/anniversarypic.jpg'),
     },
     {
       id: 2,
@@ -29,8 +28,7 @@ export const employees = [
       comment: 'Happy Birthday! Have an amazing year ahead.',
       name: 'Zeenath',
       date: '2024-09-25',
-    //   image: require('../Assets/birthdaypic.png'),
-    image:  require('./Assets/birthdaypic.png'), // Local image,
+      image:  require('./Assets/birthdaypic.png'),
     },
     {
       id: 3,
@@ -49,7 +47,8 @@ export const employees = [
       description: 'Open house event description here.',
       createdBy: 'Admin',
       dateTime: '2024-10-05 10:00 AM',
-    //   image: require('../Assets/openhousepic.png'),
-    image: require('./Assets/openhousepic.png'),
+      image: require('./Assets/openhousepic.png'),
     },
   ];
+
+export const phoneNumberRegex = /^[0-9]*$/;

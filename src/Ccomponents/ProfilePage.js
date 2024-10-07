@@ -48,26 +48,21 @@ function ProfileScreen({navigation}) {
       {user.logDetails.map((log, index) => (
         <View key={index}>
           <Text style={globalStyles.verticalName}>{log.day}</Text>
-          {/* <Text style={globalStyles.verticalName}>Login Time: {log.loginTime}</Text> */}
-          {/* <Text style={globalStyles.verticalName}>
-  Login Time: {"\t"}{log.loginTime}
-</Text> */}
           <View style={{flexDirection: 'row'}}>
             <Text style={globalStyles.verticalName}>Login Time: </Text>
             <Text style={{marginLeft: 10}}>{log?.loginTime}</Text>
           </View>
 
-          {/* <Text>Active Hours: {log.activeHours}</Text> */}
           <View style={{flexDirection: 'row'}}>
             <Text style={globalStyles.verticalName}>Active Hours: </Text>
             <Text style={{marginLeft: 10}}>{log?.activeHours}</Text>
           </View>
-          {/* <Text>Logout Time: {log.logoutTime}</Text> */}
+
           <View style={{flexDirection: 'row'}}>
             <Text style={globalStyles.verticalName}>Logout Time:</Text>
             <Text style={{marginLeft: 10}}>{log.logoutTime}</Text>
           </View>
-          {/* <Button title="Logout" onPress={handleLogout} /> */}
+
           <TouchableOpacity
             style={globalStyles.buttonstyle}
             onPress={handleLogout}>

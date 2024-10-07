@@ -169,7 +169,6 @@ const AddPostEvent = () => {
         </>
       )}
 
-      {/* Buttons */}
       <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginVertical: 20 }}>
       <TouchableOpacity style={globalStyles.buttonstyle} onPress={handleReset}>
               <Text style={globalStyles.buttonText}>Reset</Text>

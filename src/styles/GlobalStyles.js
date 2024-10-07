@@ -40,8 +40,6 @@ const globalStyles = StyleSheet.create({
   verticalName:{
     fontWeight:'600',
     padding:2,
-    // color:'#3B4C9A',
-    // color:'black'
   },
   });
 

@@ -95,7 +95,6 @@ const VerticalDetails = ({ route, navigation }) => {
 
   const renderTechStack = () => (
     <View>
-      {/* Render tech stack */}
       <Text style={globalStyles.verticalName} >Tech Stack: React Native</Text>
       <Text style={globalStyles.verticalName}>Point of Contact: Bhumika</Text>
       <Text style={globalStyles.verticalName}>Members: 8</Text>
@@ -104,7 +103,6 @@ const VerticalDetails = ({ route, navigation }) => {
 
   return (
     <View>
-      {/* Top Bar with Tabs */}
       <View style={{ flexDirection: 'row', justifyContent: 'space-around', padding: 10 }}>
         <TouchableOpacity onPress={() => setSelectedTab('Projects')}>
           <Text style={{ fontWeight: selectedTab === 'Projects' ? 'bold' : 'normal' }}>Projects</Text>
@@ -117,7 +115,6 @@ const VerticalDetails = ({ route, navigation }) => {
         </TouchableOpacity>
       </View>
 
-      {/* Conditionally Render Content Based on Selected Tab */}
       <View style={{ padding: 10 }}>
         {selectedTab === 'Projects' && renderProjects()}
         {selectedTab === 'Employees' && renderEmployees()}

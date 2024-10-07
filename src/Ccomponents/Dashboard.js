@@ -9,7 +9,6 @@ const Dashboard = ({ navigation }) => {
       <View style={{ flexDirection: 'row', alignItems: 'center', padding: 10 }}>
         <Image source={require('../Assets/Vector.png')} style={{ width: 30, height: 30 }} />
         <View style={{ marginLeft: 10 }}>
-        {/* <Image source={require('../Assets/filter.png')}/> */}
           <Text style={globalStyles.verticalName}>{item.name}</Text>
           <Text>{item.employeeCount} Employees</Text>
         </View>
