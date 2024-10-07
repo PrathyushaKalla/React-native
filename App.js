@@ -38,24 +38,3 @@ const App = () => {
 
 export default App;
 
-// import React from 'react';
-// import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-// import { NavigationContainer } from '@react-navigation/native';
-// import ProfileScreen from './src/Ccomponents/ProfilePage';
-// import EmployeeListScreen from './src/Ccomponents/EmployeeList';
-
-// const Tab = createBottomTabNavigator();
-
-// function App() {
-//   return (
-//     <NavigationContainer>
-//       <Tab.Navigator>
-//         <Tab.Screen name="Profile" component={ProfileScreen} />
-//         <Tab.Screen name="Employee List" component={EmployeeListScreen} />
-//       </Tab.Navigator>
-//     </NavigationContainer>
-//   );
-// }
-
-// export default App;
-
